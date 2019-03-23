@@ -4,7 +4,7 @@ import { json, urlencoded } from 'body-parser';
 import dotenv from 'dotenv';
 dotenv.config();
 
-import exampleRouter from './resources/example/router';
+import exampleRouter from './resources/example/example.router';
 
 const app = express();
 const port = process.env.PORT;
